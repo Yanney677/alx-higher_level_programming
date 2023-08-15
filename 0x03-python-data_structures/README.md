@@ -2,11 +2,7 @@
 
 The main aim of this project is to, learned about how to implement sequence of data types and how they work in Python - specifically, lists and tuples.
 
-## Tests :0-print_list_integer.py:
-
-* [tests](./tests): Test files. Provided by ALX.
-
-## Tasks :page_with_curl:
+## Task(s)
 
 * **0. Print a list of integers**
   * [0-print_list_integer.py](./0-print_list_integer.py): Python function that prints all
