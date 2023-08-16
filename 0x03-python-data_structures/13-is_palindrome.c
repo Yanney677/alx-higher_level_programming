@@ -9,7 +9,7 @@
 void reverse_listint(listint_t **head)
 {
 	listint_t *prev = NULL;
-	listint_t *current = *head;
+	listint_t *current_node = *head;
 	listint_t *next = NULL;
 
 	while (current_node)
