@@ -1,4 +1,4 @@
-#Python - More Data Structures: Set, Dictionary
+# Python - More Data Structures: Set, Dictionary
 
 The main objective(s) of the project, is to seek to implement the `lamba`, `map`, `filter` and `reduce` method in the sets and dictionaries in python.
 
