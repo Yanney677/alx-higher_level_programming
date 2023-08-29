@@ -1,11 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-"""
-     a function that executes a function safely
-	otherwise - the result of the call to fct.
-    """
-
 
 def safe_function(fct, *args):
     try:
