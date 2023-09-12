@@ -3,15 +3,16 @@
 Create a class MyList that inherits from list
 """
 
-class Mylist(list):
-	"""inherits from the class list"""
 
-	def __init__(self):
-	"""initializes the object"""
+class MyList(list):
+    """inherits from the class list"""
 
-	super().__init__()
+    def __init__(self):
+        """initialize the object
+        """
+        super().__init__()
 
-	def printed_sorted(self):
-	"""prints the all sorted list"""
-
-	print(sorted(self))
+    def print_sorted(self):
+        """prints the sorted list
+        """
+        print(sorted(self))
