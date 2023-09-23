@@ -63,7 +63,7 @@ class Base:
             return []
         with open(file, "r", encoding="utf-8") as f:
             return (cls.create(**d) for d in cls.from_json_string(f.read()))
-    @classmeTask 15
+
     @staticmethod
     def to_json_string(list_dictionaries):
         """Jsonifies a dict. so its quite rightly and longer"""
@@ -136,4 +136,3 @@ else:
             t.end_fill()
 
         time.sleep(5)
-
