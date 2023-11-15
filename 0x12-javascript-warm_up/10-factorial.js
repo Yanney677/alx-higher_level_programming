@@ -1,13 +1,6 @@
 #!/usr/bin/node
-function add(a, b) {
-    const result = parseInt(a) + parseInt(b);
-    console.log(result);
+function factorial (n) {
+  return n === 0 || isNaN(n) ? 1 : n * factorial(n - 1);
 }
 
-const NumArg = process.argv.slice(2);
-
-if (NumArg.length === 2) {
-    add(NumArg[0], ArgNum[1]);
-} else {
-    console.log('NaN');
-}
+console.log(factorial(Number(process.argv[2])));
