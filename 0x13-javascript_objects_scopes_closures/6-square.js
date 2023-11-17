@@ -2,9 +2,9 @@
 /*class Square that defines a square and inherits from Rectangle of 4-rectangle.js
  */
 
-const BaseSquare = require('./5-square');
+const SquareBase = require('./5-square');
 
-class Square extends BaseSquare {
+class Square extends SquareBase {
   charPrint (c) {
     if (c === undefined) {
       c = 'X';
